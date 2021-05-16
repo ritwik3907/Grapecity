@@ -1,0 +1,143 @@
+body {
+    font-family: Roboto;
+    background: #00428e;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #00428e, #1F1C18);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #00428e, #1F1C18);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+  
+  #container {
+    height: 525px;
+    width: 625px;
+    margin: 100px auto;
+    background: hsla(0, 0%, 97%, 0.815);
+    box-shadow: 0 0 3px rgba(243, 240, 240, 0.795);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+  }
+ 
+  /* Positioning of div */
+  div.a {
+    position: relative;
+    width: 400px;
+    height: 200px;
+
+    }
+  
+  div.b {
+    position: absolute;
+    right: 5px;
+    width: 300px;
+    height: 300px;
+    
+  } 
+  
+  div.c {
+    position: absolute;
+    left: 5px;  
+    width: 300px;
+    height: 300px;
+    
+  }
+
+  h1 {
+    text-align: center;
+    color: black;
+    padding: 10px 100px;
+    text-transform: uppercase;
+    font-size: 18px;
+    
+   
+  }
+  
+  p {
+    padding-left: 20px;
+  }
+  
+  form input[type="text"] {
+    width: 90px;
+  }
+  
+  input {
+    padding-left: 20px;
+  }
+  
+  #bill {
+    font-size: 14px;
+    background-color: #f7f7f7;
+    width: 50%;
+    padding: 5px 5px 8px 8px;
+  }
+  
+  #bill:focus {
+    background: #fff;
+    border: 3px solid #2980b9;
+    outline: none;
+  }
+  
+  #peopleamt {
+    width: 55%;
+    padding: 5px 5px 8px 8px;
+    margin-left: 20px;
+    background: #f7f7f7;
+    font-size: 14px;
+  }
+  
+  .dollarSign {
+    display: inline;
+  }
+  
+  #serviceTip {
+    width: 55%;
+    font-size: 14px;
+    padding: 5px 5px 8px 8px;
+  }
+  
+  button {
+      
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    margin: 30px auto;
+    background: #0905da;
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    font-size: 17px;
+    color: white;
+    
+  }
+  
+  button:hover {
+    background: #1d1919;
+    border-bottom-color: #111;
+  }
+  
+  button:active {
+    position: relative;
+    bottom: 2px;
+  }
+  
+  #totalTip {
+    font-size: 30px;
+    margin-top: 5px;
+    text-align: center;
+    font-weight: bold;
+    display: block;
+  }
+    
+  #totalTip sup {
+    font-size: 20px;
+    top: -18px;
+    text-align: center;
+  }
+  
+  #totalTip small {
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    text-align: left;
+  }
