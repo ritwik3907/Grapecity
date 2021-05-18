@@ -1,0 +1,56 @@
+<div id="container" class="a">
+    <h1>Tip Calculator</h1>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+     <!--calculator Starts-->
+    <div id="calculator" class="c">
+  
+      <form>
+        <p>Bill <sup>*</sup>
+          <p>
+            $ <input id="bill" type="number" placeholder="Bill Amount">       <!--Taking bill amount as input-->
+  
+            <p>Tip % <sup>*</sup>
+              <p>
+
+            <input id="serviceTip" type="number" placeholder="Enter tip%">      <!--Taking Tip % as input-->
+    
+          <p>Number of people <sup>*</sup> </p> 
+            <input id="peopleamt" type="number" placeholder="Enter a valid number"> <!--Taking number of people as input-->
+
+      </form>
+      
+      <button type="button" id="calculate">Calculate!</button>
+  
+    </div>
+    <!--calculator end-->
+
+     <!--totalTip Starts-->
+    
+    <div id="totalTip" class="b">
+
+        <!--Displaying Tip per person-->
+        <sup>$</sup><span id="tip">0.00</span>
+        <label style="float: left;"> Tip</label> <br>
+        <small id="each">per person</small>
+      
+
+        <br>
+
+        <!--Displaying Total per person-->
+        <sup>$</sup><span id="sal">0.00</span>
+        <label style="float: left;"> Total</label> <br>
+        <small id="each"> per person</small>
+      
+    
+    </div>
+
+    <!--totalTip end-->
+   
+  </div>
+  <!--container end-->
+
+  
+  
+  <script src="script.js"></script>
